@@ -1,0 +1,82 @@
+
+    .nav{
+    height:50px;
+    background: blue;
+}
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left:0;
+    padding: 15px;
+    font size:20px;
+    color: white;
+}
+.nav ul{
+    position: absolute;
+    right:5px;
+}
+.nav ul li{
+    display:inline-block;
+}
+.nav ul li a{
+    color: white;
+    padding:5px;
+}
+.home{
+    background-image:url("images/IMG-20250801-WA0067/images/background.jpg");
+    background-size:cover;
+    height: 100px;
+}
+.text-container{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    height: 90vh;
+    
+}
+.about-content{
+    margin: 259px auto 0 auto;
+    width: 500px;
+}
+.about-content h1{
+    text-align: center;
+}
+.about-content p{
+    text align justify:
+}
+.about-content h1{
+    text-align: center;
+    color: red;
+}
+.services-content{
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+.services-content  ul {
+    padding: 0;
+}
+.services-content ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+}
+.services-content h1{
+    color: red;
+}
+ .card-container ul li{
+    text-align:justify;
+    color: green;
+    font-family:lato;sana-serif
+}
+.contact-content{
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+.contact-content h1{
+    color: red;
+    font-family:Roboto;sans-serif
+}
+.contact-content .address-holder{
+    font-family:Lato;sans-serif;
+}
